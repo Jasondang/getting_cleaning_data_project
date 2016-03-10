@@ -9,7 +9,12 @@ the provided dataset from wearable smartphone device(Samsung Galaxy S II).
 
 ## Data Transformation
 
-### Included functions
+### Included libraries
+The following libraries were included in the analysis code in order for the required transformations 
+to occur. 
+* httr: Package for working with HTTP
+* dplyr: Powerful package to transform and summarize tabular data with rows and columns
+* reshape2: Package to restructure and aggregate data
 
 ### Step 1
 
