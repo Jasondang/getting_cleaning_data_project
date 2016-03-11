@@ -9,5 +9,5 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 # List of Files:
 * Project_Analysis.R: Consists of the R programming code which executes the 5 key tasks outline in the project
-* Codebook.md: 
+* Codebook.md: This documentbook that describes the variables, the data, and any data transformations that were performed on the provided dataset from wearable smartphone device(Samsung Galaxy S II).
 
