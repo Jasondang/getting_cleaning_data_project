@@ -61,5 +61,5 @@ names(Data) <- gsub("BodyBody", "Body", names(Data))
 meltData <- melt(Data, id = c("Subject", "Activity"))
 averageData <- dcast(meltData, Subject + Activity ~ variable, mean)
 
-write.table(averageData, "tidy_data_2.txt", row_names=TRUE)
+write.table(averageData, "tidy_data_2.txt", row_name=FALSE)
 
