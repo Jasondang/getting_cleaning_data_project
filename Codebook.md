@@ -38,12 +38,12 @@ to occur.
 * reshape2: Package to restructure and aggregate data
 
 ### List of Transformations: 
-Step 1: Merge the training and the test sets to create one data set.
+Step 1: Merge the training and the test sets to create one data set. Tables were combined using rbind function. 
 
-Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
+Step 2: Extract only the measurements on the mean and standard deviation for each measurement. The grep function was utilized to extract only the mean and standard deviation. 
 
-Step 3: Uses descriptive activity names to name the activities in the data set
+Step 3: Provide descriptive names to the activities in the data set
 
-Step 4: Appropriately labels the data set with descriptive variable names.
+Step 4: Appropriately label the data set with descriptive variable names.
 
-Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+Step 5: From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject. This step was completed using the melt and dcast funciton. 
